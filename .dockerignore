@@ -1,0 +1,11 @@
+.git
+.gitignore
+.idea
+.codex
+.env
+frontend/node_modules
+backend/.venv
+backend/__pycache__
+backend/**/__pycache__
+frontend/dist
+backend/staticfiles

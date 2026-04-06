@@ -1,0 +1,19 @@
+[project]
+name = "pricing-estimate-system"
+version = "0.1.0"
+description = "Pricing and Estimate system"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.6.3",
+    "django>=6.0.3",
+    "djangorestframework>=3.17.1",
+    "gunicorn>=23.0.0",
+    "openai>=1.75.0",
+    "openpyxl>=3.1.5",
+    "pgvector>=0.4.2",
+    "psycopg2-binary>=2.9.11",
+    "redis>=7.4.0",
+    "whitenoise>=6.9.0",
+    "xlrd>=2.0.2",
+]
